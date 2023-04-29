@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/file/d/1b3kG-7vAidigi-KXlFg7YA0TwfUrZb0h/view?usp=share_link'
 export_file_name = 'Projeto_ingles'
 
 classes = ['cat', 'dog']
