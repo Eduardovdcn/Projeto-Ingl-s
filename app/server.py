@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1b3kG-7vAidigi-KXlFg7YA0TwfUrZb0h?alt=media&key=AIzaSyAW2D0JtFnb1lS_cbcf-MPJcu0TzbucrJ0'
-export_file_name = 'Projeto_ingles.pth'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1e8-tAZL0vZfi1tiO9n1f7yy0riC1qOdQ?alt=media&key=AIzaSyAW2D0JtFnb1lS_cbcf-MPJcu0TzbucrJ0'
+export_file_name = 'model.pkl'
 
 classes = ['cat', 'dog']
 path = Path(__file__).parent
